@@ -41,12 +41,14 @@ function App() {
   };
 
   return (
-   <div style={{ backgroundImage:`url(${image})` }}>
+  //  <div style={{ backgroundImage:`url(${image})` }}>
+    <div style={{ backgroundColor:"black" }}>
     <div  className="App" >
       <div className="container">
         <div className="row d-flex justify-content-center">
           <div className="col-md-4">
             <form id="loginform" onSubmit={loginSubmit}>
+            {/* <div> <label></label></div>
             <div> <label></label></div>
             <div> <label></label></div>
             <div> <label></label></div>
@@ -60,8 +62,7 @@ function App() {
             <div> <label></label></div>
             <div> <label></label></div>
             <div> <label></label></div>
-            <div> <label></label></div>
-            <div> <label></label></div>
+            <div> <label></label></div> */}
               <div  className="form-group" >
                 <label></label>
                 <input
@@ -107,7 +108,7 @@ function App() {
         </div>
       </div>
     </div>
-    </div> 
+     </div> 
   );
 }
 export default App;
