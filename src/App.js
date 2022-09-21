@@ -48,7 +48,7 @@ function App() {
               <div className="form-group">
                 <label>Email address</label>
                 <input
-                  type="E-Mail"
+                  type="email"
                   className="form-control"
                   id="EmailInput"
                   name="EmailInput"
@@ -63,7 +63,7 @@ function App() {
               <div className="form-group">
                 <label>Password</label>
                 <input
-                  type="Şifre"
+                  type="password"
                   className="form-control"
                   id="exampleInputPassword1"
                   placeholder="Password"
@@ -78,6 +78,7 @@ function App() {
                   type="checkbox"
                   className="form-check-input"
                   id="exampleCheck1"
+                  textAlign='center'
                 />
                 <label className="form-check-label">Check me out</label>
               </div>
