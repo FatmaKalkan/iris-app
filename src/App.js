@@ -13,7 +13,7 @@ function App() {
 
     if (!email.match(/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/)) {
       formIsValid = false;
-      setemailError("Email Not Valid");
+      setemailError("Email boş Olamaz!!");
       return false;
     } else {
       setemailError("");
@@ -23,7 +23,7 @@ function App() {
     if (!password.match(/^[a-zA-Z]{8,22}$/)) {
       formIsValid = false;
       setpasswordError(
-        "Only Letters and length must best min 8 Chracters and Max 22 Chracters"
+        "Yalnızca Harf giriniz ve uzunluk minimum 8 Karakter ve Maksimum 22 Karakter olmalıdır"
       );
       return false;
     } else {
@@ -46,7 +46,7 @@ function App() {
           <div className="col-md-4">
             <form id="loginform" onSubmit={loginSubmit}>
               <div className="form-group">
-                <label>Email address</label>
+                <label></label>
                 <input
                   type="email"
                   className="form-control"
@@ -61,7 +61,7 @@ function App() {
                 </small>
               </div>
               <div className="form-group">
-                <label>Password</label>
+                <label></label>
                 <input
                   type="password"
                   className="form-control"
@@ -80,10 +80,10 @@ function App() {
                   id="exampleCheck1"
                   textAlign='center'
                 />
-                <label className="form-check-label">Check me out</label>
+                <label className="form-check-label">Beni Hatırla</label>
               </div>
               <button type="submit" className="btn btn-primary">
-                Submit
+                Giriş
               </button>
             </form>
           </div>
