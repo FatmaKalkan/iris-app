@@ -2,10 +2,7 @@ import React  from "react";
 import "./input.css";
 
 function Input(){
-return(
-<div>
-    <input type="text"/>
-</div>
+return(<input type="text"/>
 );
 
 }

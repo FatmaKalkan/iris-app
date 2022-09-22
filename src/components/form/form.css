@@ -1,0 +1,6 @@
+.form {
+    background-color: bisque;
+    padding: 30;
+    display:flex;
+    flex-direction: column;   /*inputların yan yana gelmesi*/
+} 
