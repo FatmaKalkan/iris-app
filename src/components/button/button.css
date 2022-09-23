@@ -1,13 +1,13 @@
 .button{
     outline: auto;
     width: max-content;
-    background-color: #3949ab;
+    background-color:#6a82fb;
     color: white;
     box-sizing: border-box;
     padding: 3px 30px;
     font-size: 14px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: all .4s ease;
     
 }
