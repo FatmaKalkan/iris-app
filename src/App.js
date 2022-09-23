@@ -36,7 +36,7 @@ function App()
     }
 return(
 <div className="App">
-<h2>Giriş Formu</h2>
+<h2></h2>
 <Form>
     <Input type={"text"}
     value={user.name}
