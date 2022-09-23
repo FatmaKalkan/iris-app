@@ -1,8 +1,8 @@
 import React  from "react";
 import "./input.css";
 
-function Input(){
-return(<input className="input" type="text"/>
+function Input({type,placeHolder,onChange}){
+return(<input className="input" type={type} placeholder={placeHolder} onChange={onChange}/>
 );
 
 }
