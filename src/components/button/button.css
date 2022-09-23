@@ -10,7 +10,8 @@
     border-radius: 10px;
     transition: all .4s ease;
     background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+	/* background-image: linear-gradient(to right, #fc5c7d, #6a82fb); */
+    background-image: linear-gradient(to right, #434343 0%,  black 100%);
     
 }
 .button:hover
