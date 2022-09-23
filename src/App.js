@@ -20,6 +20,19 @@ function App()
             console.log(user); 
         }
      
+     }
+     const handleClick = () => {
+        if(user.name==="")
+        {
+            alert("Kullanıcı adı boş");
+        }
+        else if(user.password==="")
+        {
+            alert("Şifre boş");
+        }
+        else{
+            alert("Başarılı");
+        }
     }
 return(
 <div className="App">
@@ -34,7 +47,8 @@ return(
     value={user.password}
     placeHolder={"Şifre"}
     onChange={handleChange}/>
-    <Button />
+    {/* <Button onClick={()=>{alert();}} /> */}
+    <Button onClick={handleClick} />
 </Form>
 </div>
 );
