@@ -3,15 +3,23 @@ import "./App.css";
 import Input  from "./components/input/Input";
 import Button  from "./components/button/Button";
 import Form from "./components/form/Form";
-import userEvent from "@testing-library/user-event";
 import { useState } from "react";
 
 function App()
 {
     const [user ,setUser]=useState({name:"",password:""})
     const handleChange=(e)=>{
-     setUser({...user,name: e.target.value});
-     console.log(user);
+        if(e.target.type==="text")
+        {
+           setUser({...user,name: e.target.value});
+          console.log(user);
+        }
+        else
+        {
+            setUser({...user,password: e.target.value});
+            console.log(user); 
+        }
+     
     }
 return(
 <div className="App">
