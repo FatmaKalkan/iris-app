@@ -38,6 +38,7 @@ return(
 <div className="App">
 <h2></h2>
 <Form>
+    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
     <Input type={"text"}
     value={user.name}
      placeHolder={"Kullaıcı Ismi"}
@@ -48,6 +49,8 @@ return(
     placeHolder={"Şifre"}
     onChange={handleChange}/>
     {/* <Button onClick={()=>{alert();}} /> */}
+    <a href="#">Forgot your password?</a>
+    <h2></h2>
     <Button onClick={handleClick} />
 </Form>
 </div>
